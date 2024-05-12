@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Base path: 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines'
+=======
+Base path: 'D:/Program Files/Unity/Editor/2022.3.22f1/Editor/Data', plugins path 'D:/Program Files/Unity/Editor/2022.3.22f1/Editor/Data/PlaybackEngines'
+>>>>>>> 16d92f59938ff87a38f14528abf1a9b3807c11d5
 Cmd: initializeCompiler
 
 Unhandled exception: Protocol error - failed to read magic number. Error code 0x80000004 (Not connected). (transferred 0/4)
