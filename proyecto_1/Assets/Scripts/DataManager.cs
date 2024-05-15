@@ -17,13 +17,13 @@ public class DataManager : MonoBehaviour
     private float logSaveInterval = 5;
     private Positions playerPos;
     private Positions enemyPos;
-
     private string connectionString;
     private IDbConnection dbConnection;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         // ESTABLECEMOS CONEXIÓN
         connectionString = "URI=file:" + Application.dataPath + "/database.db";
         dbConnection = new SqliteConnection(connectionString);
@@ -31,11 +31,12 @@ public class DataManager : MonoBehaviour
 
         // CONFIGURACIÓN DE LAS TABLAS DE LA BBDD
 
-        string sentenciaCreacionJugadores = "CREATE IF NOT EXISTS TABLE jugadores(id INTEGER PRIMARY KEY, nombre TEXT not null);";
-        string sentenciaCreacionPartidas = "CREATE IF NOT EXISTS TABLE partidas(id INTEGER PRIMARY KEY, puntuacion INTEGER not null, tiempo TIME not null, jugadorid INTEGER REFERENCES jugadores(id));";
+        string sentenciaCreacionJugadores = "CREATE TABLE IF NOT EXISTS jugadores(id INTEGER PRIMARY KEY, nombre TEXT not null, edad INTEGER not null);";
+        string sentenciaCreacionPartidas = "CREATE TABLE IF NOT EXISTS partidas(id INTEGER PRIMARY KEY, puntuacion INTEGER not null, tiempo TIME not null, jugadorid INTEGER REFERENCES jugadores(id));";
 
         Creartabla(sentenciaCreacionJugadores);
         Creartabla(sentenciaCreacionPartidas);
+
 
         prevTime = Time.realtimeSinceStartup;
         prevSaveTime = prevTime;
@@ -51,11 +52,13 @@ public class DataManager : MonoBehaviour
         }
         PlayerPrefs.SetString("nombre", "MaxUser");
         Debug.Log(PlayerPrefs.GetString("nombre"));
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         float currentTime = Time.realtimeSinceStartup;
         if(currentTime > prevTime + logInterval) {
             prevTime += logInterval;
@@ -72,6 +75,8 @@ public class DataManager : MonoBehaviour
             SaveJSONToFile();
             SaveXMLToFile();
         }
+        
+        
     }
 
     // ESTABLECEMOS LAS TABLAS DE LA BBDD SI NO ESTÁN CREADAS
