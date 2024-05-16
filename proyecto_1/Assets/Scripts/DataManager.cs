@@ -9,16 +9,10 @@ using Mono.Data.Sqlite;
 
 public class DataManager : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject[] enemies;
-    private float prevTime;
-    private float prevSaveTime;
-    private float logInterval = 1; //En segundos
-    private float logSaveInterval = 5;
-    private Positions playerPos;
-    private Positions enemyPos;
+
     private string connectionString;
     private IDbConnection dbConnection;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -29,64 +23,52 @@ public class DataManager : MonoBehaviour
         dbConnection = new SqliteConnection(connectionString);
         dbConnection.Open();
 
-        // CONFIGURACIÓN DE LAS TABLAS DE LA BBDD
-
-        string sentenciaCreacionJugadores = "CREATE TABLE IF NOT EXISTS jugadores(id INTEGER PRIMARY KEY, nombre TEXT not null, edad INTEGER not null);";
-        string sentenciaCreacionPartidas = "CREATE TABLE IF NOT EXISTS partidas(id INTEGER PRIMARY KEY, puntuacion INTEGER not null, tiempo TIME not null, jugadorid INTEGER REFERENCES jugadores(id));";
-
-        Creartabla(sentenciaCreacionJugadores);
-        Creartabla(sentenciaCreacionPartidas);
-
-
-        prevTime = Time.realtimeSinceStartup;
-        prevSaveTime = prevTime;
-        playerPos = new Positions();
-        enemyPos = new Positions();
-
-        //Prueba de XML
-        CharacterPosition cp = new CharacterPosition("Prueba", 123123123, Vector3.right);
-        XmlSerializer serializer = new XmlSerializer(typeof(CharacterPosition));
-        using (FileStream stream = new FileStream("exampleXML.xml", FileMode.Create))
-        {
-            serializer.Serialize(stream, cp);
-        }
-        PlayerPrefs.SetString("nombre", "MaxUser");
-        Debug.Log(PlayerPrefs.GetString("nombre"));
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        float currentTime = Time.realtimeSinceStartup;
-        if(currentTime > prevTime + logInterval) {
-            prevTime += logInterval;
-            CharacterPosition cp = new CharacterPosition(player.name, currentTime, player.transform.position);
-            playerPos.positions.Add(cp);
-            foreach (GameObject enemy in enemies) {
-                CharacterPosition en = new CharacterPosition(enemy.name, currentTime, enemy.transform.position);
-                enemyPos.positions.Add(en);
-            }
-        }
-        if(currentTime > prevSaveTime + logSaveInterval) {
-            prevSaveTime += logSaveInterval;
-            SaveCSVToFile();
-            SaveJSONToFile();
-            SaveXMLToFile();
-        }
+
         
         
     }
 
-    // ESTABLECEMOS LAS TABLAS DE LA BBDD SI NO ESTÁN CREADAS
-    private void Creartabla(string sentencia){
+    public void InsertResultados(int puntos, float tiempo){
 
+        int ultimoIdJugador = ObtenerUltimoIdJugador();
+        Debug.Log($"El ID del último jugador insertado es: {ultimoIdJugador}");
 
-        IDbCommand createTableCmd = dbConnection.CreateCommand();
+        // Insertar partida en la base de datos
+        string sentenciaInsertarPartida = "INSERT INTO partidas (puntuacion, tiempo, jugadorid) VALUES (@puntuacion, @tiempo, @jugadorid);";
+        IDbCommand insertPartidaCmd = dbConnection.CreateCommand();
+        insertPartidaCmd.CommandText = sentenciaInsertarPartida;
 
-        createTableCmd.CommandText = sentencia;
-        createTableCmd.ExecuteNonQuery();
+        IDbDataParameter puntuacionParam = insertPartidaCmd.CreateParameter();
+        puntuacionParam.ParameterName = "@puntuacion";
+        puntuacionParam.Value = puntos;
+        insertPartidaCmd.Parameters.Add(puntuacionParam);
+
+        IDbDataParameter tiempoParam = insertPartidaCmd.CreateParameter();
+        tiempoParam.ParameterName = "@tiempo";
+        tiempoParam.Value = tiempo; // Guardar el tiempo de juego en segundos
+        insertPartidaCmd.Parameters.Add(tiempoParam);
+
+        IDbDataParameter jugadoridParam = insertPartidaCmd.CreateParameter();
+        jugadoridParam.ParameterName = "@jugadorid";
+        jugadoridParam.Value = ultimoIdJugador;
+        insertPartidaCmd.Parameters.Add(jugadoridParam);
+
+        insertPartidaCmd.ExecuteNonQuery();
+    }
+
+    private int ObtenerUltimoIdJugador()
+    {
+        string sentenciaSelect = "SELECT max(id) as id FROM jugadores;";
+        IDbCommand selectCmd = dbConnection.CreateCommand();
+        selectCmd.CommandText = sentenciaSelect;
+        object result = selectCmd.ExecuteScalar();
+        return int.Parse(result.ToString());
     }
 
     private void CerrarConexionBBDD(){
@@ -94,6 +76,7 @@ public class DataManager : MonoBehaviour
         dbConnection = null;
     }
 
+    /*
     private void SaveCSVToFile()
     {
         string data = "Name; Timestamp; x; y; z\n";
@@ -140,4 +123,5 @@ public class DataManager : MonoBehaviour
             serializer.Serialize(stream, enemyPos);
         }
     }
+    */
 }

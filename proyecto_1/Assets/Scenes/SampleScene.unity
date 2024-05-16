@@ -3681,8 +3681,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3dc974636625e044865d3f6b673ece9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 157813845}
-  enemies: []
 --- !u!4 &1060025168
 Transform:
   m_ObjectHideFlags: 0
@@ -3710,7 +3708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41bd0c0332d0bdf468e68a7d49d61692, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 100
+  vidaMaxima: 20
   vidaActual: 0
   tiempoDeJuego: 0
   puntaje: 0
@@ -3718,6 +3716,7 @@ MonoBehaviour:
   vidaText: {fileID: 1848407588}
   tiempoText: {fileID: 1885315195}
   puntajeText: {fileID: 1993299574}
+  dataManagerInstance: {fileID: 1060025167}
 --- !u!1 &1065826276
 GameObject:
   m_ObjectHideFlags: 0

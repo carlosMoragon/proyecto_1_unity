@@ -3,7 +3,7 @@
   <positions>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>2.78774381</timestamp>
+      <timestamp>10.4296017</timestamp>
       <position>
         <x>6.782</x>
         <y>1.42948365</y>
@@ -12,263 +12,758 @@
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>3.78707266</timestamp>
+      <timestamp>11.4299469</timestamp>
       <position>
-        <x>6.782</x>
-        <y>1.42948365</y>
-        <z>-5.813</z>
+        <x>6.65585327</x>
+        <y>1.5377332</y>
+        <z>-6.21562052</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>4.78743</timestamp>
+      <timestamp>12.429944</timestamp>
       <position>
-        <x>5.941612</x>
+        <x>5.100055</x>
         <y>2.05</y>
-        <z>-7.762667</z>
+        <z>-8.297795</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>5.78793335</timestamp>
+      <timestamp>13.4296236</timestamp>
       <position>
-        <x>5.14883661</x>
+        <x>5.08883572</x>
         <y>2.05</y>
-        <z>-8.649552</z>
+        <z>-8.298484</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>6.787294</timestamp>
+      <timestamp>14.4301949</timestamp>
       <position>
-        <x>0.7904813</x>
-        <y>1.89551783</y>
-        <z>-8.407948</z>
+        <x>1.88265049</x>
+        <y>2.00803423</y>
+        <z>-8.300192</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>7.787885</timestamp>
+      <timestamp>15.4296846</timestamp>
       <position>
-        <x>-2.59783673</x>
+        <x>-3.08835816</x>
         <y>1.55000007</y>
-        <z>-8.933997</z>
+        <z>-8.494615</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>8.787948</timestamp>
+      <timestamp>16.4299545</timestamp>
       <position>
-        <x>-7.435978</x>
-        <y>1.40084839</y>
-        <z>-7.47299957</z>
+        <x>-6.7389636</x>
+        <y>1.43365431</y>
+        <z>-7.824047</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>9.787828</timestamp>
+      <timestamp>17.429266</timestamp>
       <position>
-        <x>-1.79877162</x>
+        <x>-6.505613</x>
         <y>1.55000007</y>
-        <z>-9.668413</z>
+        <z>-6.72935534</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>10.787653</timestamp>
+      <timestamp>18.42939</timestamp>
       <position>
-        <x>-1.33047116</x>
-        <y>1.55000007</y>
-        <z>-9.646994</z>
+        <x>-5.43632126</x>
+        <y>1.4719696</y>
+        <z>-8.480117</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>11.7871208</timestamp>
+      <timestamp>19.42966</timestamp>
       <position>
-        <x>-1.3408078</x>
-        <y>1.55000007</y>
-        <z>-8.856038</z>
+        <x>-1.10573316</x>
+        <y>1.72956681</y>
+        <z>-8.595033</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>12.7876</timestamp>
+      <timestamp>20.4293976</timestamp>
       <position>
-        <x>-1.32038248</x>
-        <y>1.55000007</y>
-        <z>-8.4</z>
+        <x>3.343012</x>
+        <y>2.05</y>
+        <z>-8.247499</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>13.787219</timestamp>
+      <timestamp>21.4293766</timestamp>
       <position>
-        <x>-1.321123</x>
-        <y>1.55000007</y>
-        <z>-8.4</z>
+        <x>5.27448463</x>
+        <y>2.05</y>
+        <z>-7.876736</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>14.7879314</timestamp>
+      <timestamp>22.4295425</timestamp>
       <position>
-        <x>-1.3205775</x>
-        <y>1.55000007</y>
-        <z>-8.4</z>
+        <x>6.75615025</x>
+        <y>1.60000014</y>
+        <z>-6.27639866</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>15.7871923</timestamp>
+      <timestamp>23.430788</timestamp>
       <position>
-        <x>-1.32551</x>
-        <y>1.55000007</y>
-        <z>-8.4</z>
+        <x>7.54943657</x>
+        <y>0.8930894</y>
+        <z>-4.06480026</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>16.787674</timestamp>
+      <timestamp>24.4292889</timestamp>
       <position>
-        <x>-1.33164716</x>
-        <y>1.55000007</y>
-        <z>-8.4</z>
+        <x>7.58839035</x>
+        <y>0.893865466</y>
+        <z>-4.06405</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>17.78763</timestamp>
+      <timestamp>25.42951</timestamp>
       <position>
-        <x>-1.33122158</x>
-        <y>1.55000007</y>
-        <z>-8.4</z>
+        <x>7.44207954</x>
+        <y>0.8514501</y>
+        <z>-3.978921</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>18.78732</timestamp>
+      <timestamp>26.429781</timestamp>
       <position>
-        <x>-1.330859</x>
-        <y>1.55000007</y>
-        <z>-8.400073</z>
+        <x>6.15532732</x>
+        <y>0.7721452</y>
+        <z>-3.8263514</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>19.7877712</timestamp>
+      <timestamp>27.4303074</timestamp>
       <position>
-        <x>-1.33111024</x>
-        <y>1.55000007</y>
-        <z>-8.4</z>
+        <x>5.745708</x>
+        <y>0.55</y>
+        <z>-4.65429163</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>20.787899</timestamp>
+      <timestamp>28.4296055</timestamp>
       <position>
-        <x>-1.33179593</x>
-        <y>1.55000007</y>
-        <z>-8.400371</z>
+        <x>5.930106</x>
+        <y>0.608341038</y>
+        <z>-4.491207</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>21.7875519</timestamp>
+      <timestamp>29.4301853</timestamp>
       <position>
-        <x>-1.33198631</x>
-        <y>1.55000007</y>
-        <z>-8.400798</z>
+        <x>4.77904224</x>
+        <y>0.55</y>
+        <z>-4.74550343</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>22.78782</timestamp>
+      <timestamp>30.4293957</timestamp>
       <position>
-        <x>-1.331637</x>
-        <y>1.55000007</y>
-        <z>-8.401148</z>
+        <x>2.364734</x>
+        <y>0.55</y>
+        <z>-5.996127</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>23.78784</timestamp>
+      <timestamp>31.4302616</timestamp>
       <position>
-        <x>-1.33195984</x>
-        <y>1.55000007</y>
-        <z>-8.401299</z>
+        <x>-0.468882382</x>
+        <y>0.55</y>
+        <z>-6.09689474</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>24.7879181</timestamp>
+      <timestamp>32.4298744</timestamp>
       <position>
-        <x>-1.33158243</x>
-        <y>1.55000007</y>
-        <z>-8.401302</z>
+        <x>-3.254541</x>
+        <y>0.583792567</y>
+        <z>-4.329557</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>25.78789</timestamp>
+      <timestamp>33.42959</timestamp>
       <position>
-        <x>-1.33130622</x>
-        <y>1.55000007</y>
-        <z>-8.40162</z>
+        <x>-5.11924076</x>
+        <y>0.585094869</y>
+        <z>-3.10795736</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>26.787117</timestamp>
+      <timestamp>34.430397</timestamp>
       <position>
-        <x>-1.33056533</x>
-        <y>1.55000007</y>
-        <z>-8.402353</z>
+        <x>-6.556695</x>
+        <y>0.55</y>
+        <z>-1.25669527</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>27.7870865</timestamp>
+      <timestamp>35.4299355</timestamp>
       <position>
-        <x>-1.331319</x>
-        <y>1.55000007</y>
-        <z>-8.403175</z>
+        <x>-5.88584328</x>
+        <y>0.55</y>
+        <z>0.982596934</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>28.7874832</timestamp>
+      <timestamp>36.4296341</timestamp>
       <position>
-        <x>-1.33093226</x>
-        <y>1.55000007</y>
-        <z>-8.403755</z>
+        <x>-5.786921</x>
+        <y>0.645396</y>
+        <z>4.318651</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>29.7878361</timestamp>
+      <timestamp>37.4300423</timestamp>
       <position>
-        <x>-1.33183074</x>
-        <y>1.55000007</y>
-        <z>-8.404107</z>
+        <x>-5.50941</x>
+        <y>2.05</y>
+        <z>7.41104</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>30.78783</timestamp>
+      <timestamp>38.42979</timestamp>
       <position>
-        <x>-1.33157122</x>
-        <y>1.55000007</y>
-        <z>-8.404842</z>
+        <x>-2.514235</x>
+        <y>2.05</y>
+        <z>8.463933</z>
       </position>
     </CharacterPosition>
     <CharacterPosition>
       <name>Player</name>
-      <timestamp>31.7873058</timestamp>
+      <timestamp>39.43074</timestamp>
       <position>
-        <x>-1.33095407</x>
+        <x>2.45863938</x>
         <y>1.55000007</y>
-        <z>-8.404232</z>
+        <z>8.877796</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>40.4296265</timestamp>
+      <position>
+        <x>6.32335949</x>
+        <y>1.54758358</y>
+        <z>6.32335854</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>41.43058</timestamp>
+      <position>
+        <x>2.59594941</x>
+        <y>1.53427136</y>
+        <z>2.595949</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>42.4295273</timestamp>
+      <position>
+        <x>0.0511107445</x>
+        <y>1.52518249</y>
+        <z>0.0511102676</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>43.4307022</timestamp>
+      <position>
+        <x>-2.49899268</x>
+        <y>1.516075</y>
+        <z>-2.49899316</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>44.4294472</timestamp>
+      <position>
+        <x>-6.055322</x>
+        <y>1.50337386</y>
+        <z>-6.05532265</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>45.430027</timestamp>
+      <position>
+        <x>-7.01131439</x>
+        <y>1.55000007</y>
+        <z>-7.06714249</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>46.43046</timestamp>
+      <position>
+        <x>-4.940114</x>
+        <y>1.452709</y>
+        <z>-8.730029</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>47.42938</timestamp>
+      <position>
+        <x>-0.69446975</x>
+        <y>1.77559984</y>
+        <z>-8.554457</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>48.4293671</timestamp>
+      <position>
+        <x>3.51037836</x>
+        <y>2.05</y>
+        <z>-7.97625542</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>49.429985</timestamp>
+      <position>
+        <x>6.44631958</x>
+        <y>2.05</y>
+        <z>-7.19453764</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>50.4309235</timestamp>
+      <position>
+        <x>6.33375931</x>
+        <y>1.60000014</y>
+        <z>-5.41021824</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>51.43041</timestamp>
+      <position>
+        <x>4.482542</x>
+        <y>0.5961158</y>
+        <z>-3.84660935</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>52.4299469</timestamp>
+      <position>
+        <x>5.014812</x>
+        <y>0.56091696</y>
+        <z>-4.34716225</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>53.42994</timestamp>
+      <position>
+        <x>6.525529</x>
+        <y>0.5815671</y>
+        <z>-2.922087</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>54.4298668</timestamp>
+      <position>
+        <x>8.833585</x>
+        <y>0.55</y>
+        <z>-0.480154</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>55.4299</timestamp>
+      <position>
+        <x>9.150883</x>
+        <y>0.55</y>
+        <z>1.59519362</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>56.42976</timestamp>
+      <position>
+        <x>8.817778</x>
+        <y>0.55</y>
+        <z>5.332401</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>57.4307251</timestamp>
+      <position>
+        <x>8.111795</x>
+        <y>0.55</y>
+        <z>8.63652</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>58.42939</timestamp>
+      <position>
+        <x>6.136464</x>
+        <y>0.55</y>
+        <z>8.619209</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>59.4307671</timestamp>
+      <position>
+        <x>5.024642</x>
+        <y>0.55</y>
+        <z>7.4</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>60.42936</timestamp>
+      <position>
+        <x>1.35171354</x>
+        <y>0.55</y>
+        <z>6.82159948</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>61.4299164</timestamp>
+      <position>
+        <x>-2.17611957</x>
+        <y>0.55</y>
+        <z>5.606046</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>62.4304047</timestamp>
+      <position>
+        <x>-5.22375154</x>
+        <y>0.593646467</y>
+        <z>3.67003512</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>63.43013</timestamp>
+      <position>
+        <x>-8.015138</x>
+        <y>0.55</y>
+        <z>1.36933649</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>64.4297562</timestamp>
+      <position>
+        <x>-9.382968</x>
+        <y>0.55</y>
+        <z>-0.398474127</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>65.42962</timestamp>
+      <position>
+        <x>-9.36354351</x>
+        <y>0.55</y>
+        <z>-3.79917669</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>66.42977</timestamp>
+      <position>
+        <x>-8.781957</x>
+        <y>0.55</y>
+        <z>-7.103876</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>67.4297943</timestamp>
+      <position>
+        <x>-6.95508862</x>
+        <y>0.55</y>
+        <z>-8.579225</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>68.43028</timestamp>
+      <position>
+        <x>-5.53449774</x>
+        <y>0.55</y>
+        <z>-8.104772</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>69.4309845</timestamp>
+      <position>
+        <x>-2.58157969</x>
+        <y>0.55</y>
+        <z>-6.999654</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>70.42947</timestamp>
+      <position>
+        <x>0.767457962</x>
+        <y>0.55</y>
+        <z>-6.02085829</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>71.43068</timestamp>
+      <position>
+        <x>4.11820269</x>
+        <y>0.55</y>
+        <z>-5.02061129</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>72.42939</timestamp>
+      <position>
+        <x>5.84937429</x>
+        <y>0.5524707</y>
+        <z>-4.46541</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>73.429985</timestamp>
+      <position>
+        <x>5.831798</x>
+        <y>0.55</y>
+        <z>-4.52838373</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>74.42984</timestamp>
+      <position>
+        <x>5.64620352</x>
+        <y>0.55</y>
+        <z>-4.8651433</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>75.4296646</timestamp>
+      <position>
+        <x>5.70000029</x>
+        <y>0.55</y>
+        <z>-5.71587944</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>76.4304</timestamp>
+      <position>
+        <x>5.465715</x>
+        <y>0.55</y>
+        <z>-6.599999</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>77.43002</timestamp>
+      <position>
+        <x>4.2278266</x>
+        <y>0.55</y>
+        <z>-6.05424547</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>78.4295</timestamp>
+      <position>
+        <x>3.42145061</x>
+        <y>0.55</y>
+        <z>-4.648457</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>79.43042</timestamp>
+      <position>
+        <x>5.511493</x>
+        <y>0.594197035</y>
+        <z>-3.42863274</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>80.42947</timestamp>
+      <position>
+        <x>7.18839025</x>
+        <y>0.757816434</y>
+        <z>-3.7840364</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>81.4295044</timestamp>
+      <position>
+        <x>8.26</x>
+        <y>0.8281919</y>
+        <z>-4.48942041</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>82.4312</timestamp>
+      <position>
+        <x>8.624925</x>
+        <y>0.55</y>
+        <z>-4.70006037</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>83.43061</timestamp>
+      <position>
+        <x>9.484427</x>
+        <y>0.5556492</y>
+        <z>-2.96358967</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>84.42935</timestamp>
+      <position>
+        <x>9.63828</x>
+        <y>0.55</y>
+        <z>0.09668036</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>85.4296951</timestamp>
+      <position>
+        <x>7.97222757</x>
+        <y>0.55</y>
+        <z>2.145016</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>86.42959</timestamp>
+      <position>
+        <x>5.02949238</x>
+        <y>0.5963135</y>
+        <z>3.44242287</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>87.4296341</timestamp>
+      <position>
+        <x>3.23312736</x>
+        <y>0.579754531</y>
+        <z>4.229423</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>88.43078</timestamp>
+      <position>
+        <x>0.617315352</x>
+        <y>0.55</y>
+        <z>5.893578</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>89.42929</timestamp>
+      <position>
+        <x>-2.84817219</x>
+        <y>0.55</y>
+        <z>5.47566748</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>90.42961</timestamp>
+      <position>
+        <x>-5.709497</x>
+        <y>0.9698848</y>
+        <z>5.13976955</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>91.42949</timestamp>
+      <position>
+        <x>-5.27557468</x>
+        <y>2.05</y>
+        <z>7.631134</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>92.42955</timestamp>
+      <position>
+        <x>-0.958434463</x>
+        <y>1.95654964</y>
+        <z>8.68834</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>93.43028</timestamp>
+      <position>
+        <x>3.6017282</x>
+        <y>1.55000007</y>
+        <z>8.753739</z>
+      </position>
+    </CharacterPosition>
+    <CharacterPosition>
+      <name>Player</name>
+      <timestamp>94.4295349</timestamp>
+      <position>
+        <x>4.5719986</x>
+        <y>1.54132867</y>
+        <z>4.57199764</z>
       </position>
     </CharacterPosition>
   </positions>
