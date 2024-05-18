@@ -9,33 +9,25 @@ using Mono.Data.Sqlite;
 
 public class DataManager : MonoBehaviour
 {
-
     private string connectionString;
     private IDbConnection dbConnection;
-    
 
     // Start is called before the first frame update
     void Start()
     {
-        
-        // ESTABLECEMOS CONEXIÓN
+        // Establecemos conexión
         connectionString = "URI=file:" + Application.dataPath + "/database.db";
         dbConnection = new SqliteConnection(connectionString);
         dbConnection.Open();
-
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-
-        
-        
     }
 
-    public void InsertResultados(int puntos, float tiempo){
-
+    public void InsertResultados(int puntos, float tiempo)
+    {
         int ultimoIdJugador = ObtenerUltimoIdJugador();
         Debug.Log($"El ID del último jugador insertado es: {ultimoIdJugador}");
 
@@ -71,57 +63,11 @@ public class DataManager : MonoBehaviour
         return int.Parse(result.ToString());
     }
 
-    private void CerrarConexionBBDD(){
+    private void CerrarConexionBBDD()
+    {
         dbConnection.Close();
         dbConnection = null;
     }
-
-    /*
-    private void SaveCSVToFile()
-    {
-        string data = "Name; Timestamp; x; y; z\n";
-        foreach (CharacterPosition cp in playerPos.positions)
-        {
-            data += cp.ToCSV() + "\n";
-        }
-        foreach (CharacterPosition cp in enemyPos.positions)
-        {
-            data += cp.ToCSV() + "\n";
-        }
-        FileManager.WriteToFile("positions.csv", data);
-    }
-
-    private void SaveJSONToFile()
-    {
-        string data = "[";
-        foreach (CharacterPosition cp in playerPos.positions)
-        {
-            data += JsonUtility.ToJson(cp) + ",\n";
-        }
-        foreach (CharacterPosition cp in enemyPos.positions)
-        {
-            data += JsonUtility.ToJson(cp) + ",\n";
-        }
-        data += "]";
-        FileManager.WriteToFile("positions.json", data);
-
-        // Forma alternativa
-        FileManager.WriteToFile("playerPostions.json", JsonUtility.ToJson(playerPos));
-        FileManager.WriteToFile("enemyPostions.json", JsonUtility.ToJson(enemyPos));
-    }
-
-    private void SaveXMLToFile()
-    {
-        XmlSerializer serializer = new XmlSerializer(typeof(Positions));
-        using (FileStream stream = new FileStream("playerPositions.xml", FileMode.Create))
-        {
-            serializer.Serialize(stream, playerPos);
-        }
-
-        using (FileStream stream = new FileStream("enemyPositions.xml", FileMode.Create))
-        {
-            serializer.Serialize(stream, enemyPos);
-        }
-    }
-    */
+    
 }
+

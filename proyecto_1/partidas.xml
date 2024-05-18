@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ArrayOfPartida xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Partida>
+    <Id>1</Id>
+    <Puntuacion>2095</Puntuacion>
+    <Tiempo>2024-05-18 12:53:22</Tiempo>
+    <JugadorId>0</JugadorId>
+  </Partida>
+  <Partida>
+    <Id>2</Id>
+    <Puntuacion>754</Puntuacion>
+    <Tiempo>2024-05-18 12:53:22</Tiempo>
+    <JugadorId>5</JugadorId>
+  </Partida>
+  <Partida>
+    <Id>3</Id>
+    <Puntuacion>829</Puntuacion>
+    <Tiempo>2024-05-18 12:53:22</Tiempo>
+    <JugadorId>6</JugadorId>
+  </Partida>
+  <Partida>
+    <Id>1587</Id>
+    <Puntuacion>823</Puntuacion>
+    <Tiempo>2024-05-18 12:53:22</Tiempo>
+    <JugadorId>7</JugadorId>
+  </Partida>
+  <Partida>
+    <Id>1588</Id>
+    <Puntuacion>766</Puntuacion>
+    <Tiempo>2024-05-18 12:53:22</Tiempo>
+    <JugadorId>8</JugadorId>
+  </Partida>
+</ArrayOfPartida>
